@@ -1,0 +1,88 @@
+/* ========common components=========== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    
+}
+
+
+
+/* =============header section============== */
+header{
+    background:#FFF9F4;
+    /* height:95vh; */
+}
+.penguin-nav{
+    background-color: transparent!important;
+}
+.penguin-menu{
+    margin-right: 90px;
+}
+.nav-link{
+    color:#3C3C3C!important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.heder-hero-text{
+     
+}
+.heder-hero-text h1{
+     font-weight: 700;
+     font-size: 80px;
+     color:#363958;
+     font-family: 'Bebas Neue', cursive;
+}
+.heder-hero-text p{
+    font-family: Roboto;
+}
+.btn-penguin{
+    padding:8px 17px;
+    background-color:#3745C8;
+    color:#fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/* ===============shoes-section================ */
+.shoes-section{
+    padding:60px 0;
+
+}
+.casoul-shoes h2{
+    color:#363958;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.single-item{
+    font-family: Roboto;
+}
+.single-item .shoes-img{
+    background-color: #F1F1F1;
+}
+.single-item h3{
+    color:#363958;
+    font-size: 24px;
+   
+}
+.text-price{
+    color: #fa804c!important;
+}
+/* =================formal-shoes============== */
+.formal-shoes-img{
+    background-color: #fff;
+
+}
+
+
+/* ========responsive=========== */
+@media screen and (max-width:578px) {
+    .logo-img{
+          width: 180px!important;
+          height: 35px !important;
+    }
+    .single{
+        text-align: center;
+    }
+}
